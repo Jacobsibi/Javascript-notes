@@ -1,0 +1,19 @@
+function add(x) {
+  // Only change code below this line
+  return function(y) {
+    return function(z) {
+      return x + y + z;
+    };
+  };
+
+//   return y => z => x + y + z;
+
+//useful when you can't supply all arguments to a function at one time.
+//save each function call into a variable
+//save into functionx then functiony then z
+
+
+  // Only change code above this line
+}
+
+add(10)(20)(30);

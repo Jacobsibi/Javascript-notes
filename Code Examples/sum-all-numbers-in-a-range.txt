@@ -1,0 +1,15 @@
+function sumAll(arr) {
+  let max = Math.max(arr[0], arr[1]); //max of 2 values
+  let min = Math.min(arr[0], arr[1]); //min of 2 values
+
+  let sum = 0;
+  for (let i = min; i <= max; i++) { //add inbetween values
+    sum += i;
+  }
+
+  return sum;
+
+  
+}
+
+sumAll([1, 4]);
